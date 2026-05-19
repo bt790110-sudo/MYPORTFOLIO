@@ -6,7 +6,7 @@ import '../sections/services_section.dart';
 import '../sections/contact_section.dart';
 import '../sections/footer_section.dart';
 import '../../widgets/back_to_top_button.dart';
-import '../../widgets/floating_particles.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          const FloatingParticles(),
+      
 
           SingleChildScrollView(
             controller: _scrollController,
